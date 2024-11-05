@@ -7,8 +7,7 @@ and a comparison video displaying both input and magnified videos side-by-side.
 - **Syntax.** *[imMag, ifail] = CompMagMatrix(im1,im2,alpha)*
 - **Purpose.** Computes the digital image containing the magnified motion.
 - **Description.** *[imMag, ifail] = CompMagMatrix(im1,im2,alpha)*, takes two gray-scale odd-sized images *im1* and *im2*, and computes the magnified digital image *imMag* with a magnification factor *alpha* by 
-applying a magnification procedure via frequency domain.
-
+                    applying a magnification procedure via frequency domain.
 -**Parameters.**
  -**input** *im1*, *im2* - gray-scale images of data type uint8 with values in the interval $[0,255]$.
  -**input** *alpha* - double scalar specifying the magnification factor applied to the subtle motion
