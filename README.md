@@ -37,6 +37,7 @@ and a comparison video displaying both input and magnified videos side-by-side.
                   <p align="center"> $$\widehat{\tilde{J_2}}(k,l) = \hat{J}_2(k,l) (E(k,l))^{\alpha}$$</p>
   where $E(k,l)$ is given by
   <p align="center">$$E(k,l) = \dfrac{\hat{J}_2(k,l)/ |\hat{J}_2(k,l)|}{\hat{J}_1(k,l)/ |\hat{J}_1(k,l)|} = e^{2\pi \iota (\delta_1 \frac{k}{N} + \delta_2 \frac{l}{M})}$$</p>
+  for $k = 0, \cdots, \lfloor \frac{N-1}{2}\rfloor$ and $l = 0, \cdots, \lfloor \frac{N-1}{2}\rfloor$ where $N$ and $M$ are respectively the height and the width of the images.
 - **Parameters.**
     - **input** *fft1*, *fft2* - complex scalars representing the current element of DFTs of the images.
     - **input** *alpha* - double scalar specifying the magnification factor applied to the subtle motion
