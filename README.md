@@ -20,7 +20,7 @@ and a comparison video displaying both input and magnified videos side-by-side.
 ## `CompMagMatGen`
 - **Syntax.** *[imMag, ifail] = CompMagMatGen(im1,im2,alpha)*
 - **Purpose.** Computes the digital image containing the magnified motion.
-- **Description.** *[imMag, ifail] = CompMagMatGen(im1,im2,alpha)*, takes two gray-scale images *im1* and *im2* <ins>of any size<ins>, and computes the magnified digital image *imMag* with a magnification factor 
+- **Description.** *[imMag, ifail] = CompMagMatGen(im1,im2,alpha)*, takes two gray-scale images *im1* and *im2* <ins>of any size</ins>, and computes the magnified digital image *imMag* with a magnification factor 
                    *alpha* by applying a magnification procedure via frequency domain.
 - **Parameters.**
     - **input** *im1*, *im2* - gray-scale images of data type uint8 with values in the interval $[0,255]$.
