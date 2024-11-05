@@ -43,3 +43,6 @@ and a comparison video displaying both input and magnified videos side-by-side.
     - **input** *alpha* - double scalar specifying the magnification factor applied to the subtle motion
     - **output** *elemMag* - complex scalar representing the current element of the magnified DFT.
     - **output** *elemConj* - complex scalar representing the symmetric conjugate of the current element of the magnified DFT
+
+## References
+Add references
