@@ -34,10 +34,8 @@ and a comparison video displaying both input and magnified videos side-by-side.
 - **Syntax.** *[elemMag, elemConj] = CompElemMag(fft1,fft2,alpha)*
 - **Purpose.** Computes the element of the DFT of the magnified frame.
 - **Description.** *[elemMag, elemConj] = CompElemMag(fft1,fft2,alpha)*, takes the current two elements of the DFTs of *im1* and *im2*, and computes the formula:
-                   $$\widehat{\tilde{J_2}}(k,l) = \hat{J}_2(k,l) (E(k,l))^{\alpha}$$ where $E(k,l)$ is given by
-  
-                   $$E(k,l) = \dfrac{\hat{J}_2(k,l)/ |\hat{J}_2(k,l)|}{\hat{J}_1(k,l)/ 
-        |\hat{J}_1(k,l)|} = e^{2\pi \iota (\delta_1 \frac{k}{N} + \delta_2 \frac{l}{M})} $$
+                   $$\widehat{\tilde{J_2}}(k,l) = \hat{J}_2(k,l) (E(k,l))^{\alpha}$$
+  where $E(k,l)$ is given by $$E(k,l) = \dfrac{\hat{J}_2(k,l)/ |\hat{J}_2(k,l)|}{\hat{J}_1(k,l)/ |\hat{J}_1(k,l)|} = e^{2\pi \iota (\delta_1 \frac{k}{N} + \delta_2 \frac{l}{M})}$$
 - **Parameters.**
     - **input** *fft1*, *fft2* - complex scalars representing the current element of DFTs of the images$.
     - **input** *alpha* - double scalar specifying the magnification factor applied to the subtle motion
