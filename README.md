@@ -38,7 +38,7 @@ and a comparison video displaying both input and magnified videos side-by-side.
   where $E(k,l)$ is given by <br/>
   $$E(k,l) = \dfrac{\hat{J}_2(k,l)/ |\hat{J}_2(k,l)|}{\hat{J}_1(k,l)/ |\hat{J}_1(k,l)|} = e^{2\pi \iota (\delta_1 \frac{k}{N} + \delta_2 \frac{l}{M})}$$
 - **Parameters.**
-    - **input** *fft1*, *fft2* - complex scalars representing the current element of DFTs of the images$.
+    - **input** *fft1*, *fft2* - complex scalars representing the current element of DFTs of the images.
     - **input** *alpha* - double scalar specifying the magnification factor applied to the subtle motion
     - **output** *elemMag* - complex scalar representing the current element of the magnified DFT.
     - **output** *elemConj* - complex scalar representing the symmetric conjugate of the current element of the magnified DFT
