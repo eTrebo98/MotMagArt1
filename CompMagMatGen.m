@@ -1,6 +1,6 @@
 function [imMag, ifail] = CompMagMatGen(im1,im2,alpha)
 
-    %This function perform a magnification between two images which differs
+    %This function performs a magnification between two images which differs
     %from each other by a certain amount of motion expressed in pixels. The
     %function can receive as input two images with dimensions which can be even
     %or odd. The magnified frame is performed by creating its DFT, which has a
