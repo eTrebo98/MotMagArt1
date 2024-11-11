@@ -47,7 +47,7 @@ and a comparison video displaying both input and magnified videos side-by-side.<
 
 ## References
 [1] Liu, C. Torralba, W. T. Freeman, F. Durand, and E. H. Adelson. *Motion magnification*.In ACM SIGGRAPH 2005 Papers, page 519–526. Association for Computing 
-    Machinery,2005. </br>
+    Machinery,2005. </br></br>
 [2] H. Y. Wu, M. Rubinstein, E. Shih, J. Guttag, F. Durand, and W. Freeman. *Eulerian video magnification for revealing subtle changes in the world*. ACM Trans. 
-    Graph., 31(4), July 2012. </br>
+    Graph., 31(4), July 2012. </br></br>
 [3] N. Wadhwa, M. Rubinstein, F. Durand, and W. T. Freeman. *Phase-based video motion processing*. ACM Trans. Graph., 32(4), July 2013.
