@@ -46,7 +46,7 @@ and a comparison video displaying both input and magnified videos side-by-side.<
     - **output** *elemConj* - complex scalar representing the symmetric conjugate of the current element of the magnified DFT
 
 ## `TestMM`
-Script that can be employed to test *[imMag, ifail] = CompMagMatrix(im1,im2,alpha)* and *[imMag, ifail] = CompMagMatGen(im1,im2,alpha)*. The test images as input are in folder **Test Images**.
+Script that can be employed to test *[imMag, ifail] = CompMagMatrix(im1,im2,alpha)* and *[imMag, ifail] = CompMagMatGen(im1,im2,alpha)*.</br> The test images as input are in folder **Test Images**.
 
 ## References
 [1] Liu, C. Torralba, W. T. Freeman, F. Durand, and E. H. Adelson. *Motion magnification*.In ACM SIGGRAPH 2005 Papers, page 519–526. Association for Computing 
