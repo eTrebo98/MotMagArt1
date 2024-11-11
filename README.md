@@ -45,6 +45,6 @@ and a comparison video displaying both input and magnified videos side-by-side.
     - **output** *elemConj* - complex scalar representing the symmetric conjugate of the current element of the magnified DFT
 
 ## References
-[1] Liu, C. Torralba, W. T. Freeman, F. Durand, and E. H. Adelson. Motion magnification.In ACM SIGGRAPH 2005 Papers, page 519–526. Association for Computing Machinery,2005. <\br>
-[2] H. Y. Wu, M. Rubinstein, E. Shih, J. Guttag, F. Durand, and W. Freeman. Eulerian video magnification for revealing subtle changes in the world. ACM Trans. Graph., 31(4), July 2012. <\br>
+[1] Liu, C. Torralba, W. T. Freeman, F. Durand, and E. H. Adelson. Motion magnification.In ACM SIGGRAPH 2005 Papers, page 519–526. Association for Computing Machinery,2005. </br>
+[2] H. Y. Wu, M. Rubinstein, E. Shih, J. Guttag, F. Durand, and W. Freeman. Eulerian video magnification for revealing subtle changes in the world. ACM Trans. Graph., 31(4), July 2012. </br>
 [3] N. Wadhwa, M. Rubinstein, F. Durand, and W. T. Freeman. Phase-based video motion processing. ACM Trans. Graph., 32(4), July 2013.
