@@ -35,7 +35,7 @@ and a comparison video displaying both input and magnified videos side-by-side.<
 - **Syntax.** *[elemMag, elemConj] = CompElemMag(fft1,fft2,alpha)*
 - **Purpose.** Computes the element of the DFT of the magnified frame.
 - **Description.** *[elemMag, elemConj] = CompElemMag(fft1,fft2,alpha)*, takes the current two elements of the DFTs of *im1* and *im2*, and computes the formula:
-                  <p align="center"> $$\widehat{\tilde{J_2}}(k,l) = \hat{J}_2(k,l) (E(k,l))^{\alpha} \quad \text{and} \quad \widehat{\tilde{J_2}}(N-k,M-l) = <span style="text-decoration:overline">\widehat{\tilde{J_2}}(N-k,M-l)</span>$$</p>
+                  <p align="center"> $$\widehat{\tilde{J_2}}(k,l) = \hat{J}_2(k,l) (E(k,l))^{\alpha} \quad \text{and} \quad \widehat{\tilde{J_2}}(N-k,M-l) = \overline{\widehat{\tilde{J_2}}(N-k,M-l)}$$</p>
   where $E(k,l)$ is given by
   <p align="center">$$E(k,l) = \dfrac{\hat{J}_2(k,l)/ |\hat{J}_2(k,l)|}{\hat{J}_1(k,l)/ |\hat{J}_1(k,l)|} = e^{2\pi \iota (\delta_1 \frac{k}{N} + \delta_2 \frac{l}{M})}$$</p>
   for $k = 0, \cdots, \frac{N-1}{2}$ and $l = 0, \cdots,  \frac{M-1}{2}$ if $N$ and $M$ are odd. For $k = 0, \cdots, \frac{N}{2}$ and $l = 0, \cdots,  \frac{M}{2}$ if $N$ and $M$ are even numbers.
