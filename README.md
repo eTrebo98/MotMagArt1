@@ -1,6 +1,6 @@
 # MotMagArt1
 The **MotMagArt1** repository includes MATLAB code for three functions - `CompMagMatrix`, `CompMagMatGen`, and `CompElemMag` - used to perform Motion Magnification on synthetic grayscale images. 
-It also contains two folders: **Test Images**, which provides images for testing the magnification procedure, and **Videos**, which holds three videos – the original input, the magnified result, 
+It also contains two folders: **Test Figures**, which provides images for testing the magnification procedure, and **Videos**, which holds three videos – the original input, the magnified result, 
 and a comparison video displaying both input and magnified videos side-by-side.</br></br>
 **NOTE.** To view videos correctly, the use of the *VLC media player software* is recommended.
 
@@ -46,7 +46,7 @@ and a comparison video displaying both input and magnified videos side-by-side.<
     - **output** *elemConj* - complex scalar representing the symmetric conjugate of the current element of the magnified DFT
 
 ## `TestMM`
-Script that can be employed to test *[imMag, ifail] = CompMagMatrix(im1,im2,alpha)* and *[imMag, ifail] = CompMagMatGen(im1,im2,alpha)*.</br> The test images as input are in folder **Test Images**.
+Script that can be employed to test *[imMag, ifail] = CompMagMatrix(im1,im2,alpha)* and *[imMag, ifail] = CompMagMatGen(im1,im2,alpha)*.</br> The test images as input are in folder **Test Figures**.
 
 ## References
 [1] Liu, C. Torralba, W. T. Freeman, F. Durand, and E. H. Adelson. *Motion magnification*.In ACM SIGGRAPH 2005 Papers, page 519–526. Association for Computing 
