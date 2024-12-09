@@ -11,7 +11,7 @@ and a comparison video displaying both input and magnified videos side-by-side.<
                     applying a magnification procedure via frequency domain.
 - **Parameters.**
     - **input** *im1*, *im2* - gray-scale images of data type uint8 with values in the interval $[0,255]$.
-    - **input** *alpha* - double scalar specifying the magnification factor applied to the subtle motion
+    - **input** *alpha* - double scalar specifying the magnification factor applied to the subtle motion.
     - **output** *imMag* - uint8 matrix of the same size as *im1* and *im2* representing the digital image with the magnified motion.
     - **output** *ifail* - integer scalar. *ifail = 0* unless the function detects an error (see Error Indicators and Warnings)
 - **Error Indicators and Warnings.** Here is the list of errors or warnings detected by the function:
@@ -25,7 +25,7 @@ and a comparison video displaying both input and magnified videos side-by-side.<
                    *alpha* by applying a magnification procedure via frequency domain.
 - **Parameters.**
     - **input** *im1*, *im2* - gray-scale images of data type uint8 with values in the interval $[0,255]$.
-    - **input** *alpha* - double scalar specifying the magnification factor applied to the subtle motion
+    - **input** *alpha* - double scalar specifying the magnification factor applied to the subtle motion.
     - **output** *imMag* - uint8 matrix of the same size as *im1* and *im2* representing the digital image with the magnified motion.
     - **output** *ifail* - integer scalar. *ifail = 0* unless the function detects an error (see Error Indicators and Warnings)
 - **Error Indicators and Warnings.** Here is the list of errors or warnings detected by the function:
