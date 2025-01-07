@@ -19,13 +19,13 @@ function [imMag, ifail] = CompMagMatGen(im1,im2,alpha)
     [N_1,M_1] = size(im1);
     [N_2,M_2] = size(im2);
     
-    %if the frames have different sizes we can't compute the magnification.
+    %if the frames have different sizes we can not compute the magnification.
     if N_1 ~= N_2 || M_1 ~= M_2
         ifail = 1;
         return;
     end
 
-    %if the magnification parameter is less than zero, we can compute the task.
+    %if the magnification parameter is less than zero, we can not compute the task.
     if alpha < 0
         ifail = 2;
         return;
