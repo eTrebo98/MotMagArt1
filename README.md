@@ -16,7 +16,8 @@ and a comparison video displaying both input and magnified videos side-by-side.<
     - **output** *ifail* - integer scalar. *ifail = 0* unless the function detects an error (see Error Indicators and Warnings)
 - **Error Indicators and Warnings.** Here is the list of errors or warnings detected by the function:
     - *ifail = 1* - if the size of *im1* and *im2* differs.
-    - *infail = 2* - if *im1* and *im2* are not odd-sized.
+    - *ifail = 2* - if *im1* and *im2* are not odd-sized.
+    - *ifail = 3* - if $\alpha < 0$
 
 ## `CompMagMatGen`
 - **Syntax.** *[imMag, ifail] = CompMagMatGen(im1,im2,alpha)*
@@ -30,6 +31,7 @@ and a comparison video displaying both input and magnified videos side-by-side.<
     - **output** *ifail* - integer scalar. *ifail = 0* unless the function detects an error (see Error Indicators and Warnings)
 - **Error Indicators and Warnings.** Here is the list of errors or warnings detected by the function:
     - *ifail = 1* - if the size of *im1* and *im2* differs.
+    - *ifail = 2* - if $\alpha < 0$.
 
 ## `CompElemMag`
 - **Syntax.** *[elemMag, elemConj] = CompElemMag(fft1,fft2,alpha)*
