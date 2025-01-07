@@ -25,6 +25,12 @@ function [imMag, ifail] = CompMagMatGen(im1,im2,alpha)
         return;
     end
 
+    %if the magnification parameter is less than zero, we can compute the task.
+    if alpha < 0
+        ifail = 2;
+        return;
+    end
+
     %setting the effective dimension of the two images
     N = N_1; %weight of the images
     M = M_1; %width of the images
