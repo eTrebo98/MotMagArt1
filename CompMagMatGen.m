@@ -11,7 +11,7 @@ function [imMag, ifail] = CompMagMatGen(im1,im2,alpha)
     %   OUTPUT: imMag: Magnified frame in gray-scale
     %           ifail: integer scalar, ifail = 0 unless the function detects
     %                 an error (ifail = 1 the two images have different
-    %                 sizes)
+    %                 sizes, ifail = 2 if alpha < 0)
 
     %setting ifail = 0, no errors occurred
     ifail = 0;
