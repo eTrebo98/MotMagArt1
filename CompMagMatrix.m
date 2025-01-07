@@ -29,6 +29,11 @@ function [imMag, ifail] = CompMagMatrix(im1,im2,alpha)
         return;
     end
 
+    %if the magnification parameter is less than zero, we can compute the task.
+    if alpha < 0
+        ifail = 3;
+        return;
+    end
     
     %initialize the dimension of the image
     N = N_1;
