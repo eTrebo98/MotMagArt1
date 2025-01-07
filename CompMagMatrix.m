@@ -1,6 +1,6 @@
 function [imMag, ifail] = CompMagMatrix(im1,im2,alpha)
 
-    %This function performs a magnification between two images (matricies) which differs
+    %This function performs a magnification between two images (matrices) which differs
     %from each other by a certain amount of motion. The procedure is
     %constructed in such a way to work with odd-sized images.
     %   INPUT: im1: first frame in greyscale
@@ -9,7 +9,7 @@ function [imMag, ifail] = CompMagMatrix(im1,im2,alpha)
     %   OUTPUT:imMag: Magnified frame
     %          ifail: integer scalar, ifail = 0 unless the function detects
     %                 an error (ifail = 1 the two images have different
-    %                 sizes, ifail = 2 if one N or M are not odd)
+    %                 sizes, ifail = 2 if one N or M are not odd, ifail = 3 if alpha < 0)
     
     %calculate the sizes of the two frames
     ifail = 0;
