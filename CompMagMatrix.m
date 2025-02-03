@@ -29,7 +29,7 @@ function [imMag, ifail] = CompMagMatrix(im1,im2,alpha)
         return;
     end
 
-    %if the magnification parameter is less than zero, we can not compute the task.
+    %if the magnification parameter is less than zero, we can not compute this task.
     if alpha < 0
         ifail = 3;
         return;
