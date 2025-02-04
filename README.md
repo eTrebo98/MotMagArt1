@@ -36,7 +36,7 @@ and a comparison video displaying both input and magnified videos side-by-side.<
 ## `CompElemMag`
 - **Syntax.** *[elemMag, elemConj] = CompElemMag(fft1,fft2,alpha)*
 - **Purpose.** Computes the element of the DFT of the magnified frame.
-- **Description.** *[elemMag, elemConj] = CompElemMag(fft1,fft2,alpha)*, takes the current two elements of the DFTs of $im1 = J_1$ and $im2 = J_2$, and computes the formula:
+- **Description.** *[elemMag, elemConj] = CompElemMag(fft1,fft2,alpha)*, takes the current two elements of the DFTs of $im1 = J_1$ and $im2 = J_2$ and computes the formula:
                   <p align="center"> $$\widehat{\tilde{J_2}}(k,l) = \hat{J}_2(k,l) (E(k,l))^{\alpha} \quad \text{and} \quad \widehat{\tilde{J_2}}(N-k,M-l) = conj(\widehat{\tilde{J_2}}(k,l))$$</p>
   where $E(k,l)$ is given by
   <p align="center">$$E(k,l) = \dfrac{\hat{J}_2(k,l)/ |\hat{J}_2(k,l)|}{\hat{J}_1(k,l)/ |\hat{J}_1(k,l)|} = e^{\iota (k \delta_2 + l \delta_1)}$$</p>
