@@ -12,6 +12,13 @@ function [imMag, ifail] = CompMagMatGen(im1,im2,alpha)
     %           ifail: integer scalar, ifail = 0 unless the function detects
     %                 an error (ifail = 1 the two images have different
     %                 sizes, ifail = 2 if alpha < 0)
+    %
+    % Copyright (c) 2024-2025 University of Camerino, 2T System srl
+    %
+    % Authors: Nadaniela Egidi, Josephin Giacomini, Paolo Leonesi, Pierluigi Maponi, Federico Mearelli, Edin Trebovic 
+    %
+    % Date: Dec 2024
+    %
 
     %setting ifail = 0, no errors occurred
     ifail = 0;
