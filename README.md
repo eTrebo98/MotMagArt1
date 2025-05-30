@@ -35,7 +35,7 @@ and a comparison video displaying both input and magnified videos side-by-side.<
 
 ## `CompElemMag`
 - **Syntax.** *[elemMag, elemConj] = CompElemMag(fft1,fft2,alpha)*
-- **Purpose.** Computes the element of the DFT of the magnified frame.
+- **Purpose.** Computes the current element of the DFT of the magnified frame and its conjugate symmetric.
 - **Description.** *[elemMag, elemConj] = CompElemMag(fft1,fft2,alpha)*, takes the current two elements of the DFTs of $im1 = J_1$ and $im2 = J_2$ and computes the formula:
                   <p align="center"> $$\widehat{\tilde{J_2}}(k,l) = \hat{J}_2(k,l) (E(k,l))^{\alpha} \quad \text{and} \quad \widehat{\tilde{J_2}}(N-k,M-l) = conj(\widehat{\tilde{J_2}}(k,l))$$</p>
   where $E(k,l)$ is given by
@@ -45,7 +45,7 @@ and a comparison video displaying both input and magnified videos side-by-side.<
     - **input** *fft1*, *fft2* - complex scalars representing the current element of DFTs of the images.
     - **input** *alpha* - double scalar specifying the magnification factor applied to the subtle motion
     - **output** *elemMag* - complex scalar representing the current element of the magnified DFT.
-    - **output** *elemConj* - complex scalar representing the symmetric conjugate of the current element of the magnified DFT
+    - **output** *elemConj* - complex scalar representing the conjugate symmetric of the current element of the magnified DFT
 
 ## `TestMM`
 Script that can be employed to test *[imMag, ifail] = CompMagMatrix(im1,im2,alpha)* and *[imMag, ifail] = CompMagMatGen(im1,im2,alpha)*.</br> The test images to use as input are loaded in folder **Test Figures**.
