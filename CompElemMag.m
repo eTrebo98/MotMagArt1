@@ -1,5 +1,4 @@
 function [elemMag, elemConj] = CompElemMag(fft1,fft2,alpha)
-
     %This function computes the element wise DFT of the magnified frame.
     %   INPUT: fft1, the current element of the fft matrix of the first frame
     %          fft2, the current element of the fft matrix of the first frame
@@ -19,5 +18,4 @@ function [elemMag, elemConj] = CompElemMag(fft1,fft2,alpha)
     else
         elemConj = 0; %else set it to 0
     end
-    
 end
