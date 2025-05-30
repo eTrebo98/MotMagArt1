@@ -10,6 +10,13 @@ function [imMag, ifail] = CompMagMatrix(im1,im2,alpha)
     %          ifail: integer scalar, ifail = 0 unless the function detects
     %                 an error (ifail = 1 the two images have different
     %                 sizes, ifail = 2 if one N or M are not odd, ifail = 3 if alpha < 0)
+    %
+    % Copyright (c) 2024-2025 University of Camerino, 2T System srl
+    %
+    % Authors: Nadaniela Egidi, Josephin Giacomini, Paolo Leonesi, Pierluigi Maponi, Federico Mearelli, Edin Trebovic 
+    %
+    % Date: Dec 2024
+    %
     
     %calculate the sizes of the two frames
     ifail = 0;
