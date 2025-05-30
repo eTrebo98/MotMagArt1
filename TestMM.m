@@ -1,4 +1,11 @@
 %Test the MM algorithm
+%
+% Copyright (c) 2024-2025 University of Camerino, 2T System srl
+%
+% Authors: Nadaniela Egidi, Josephin Giacomini, Paolo Leonesi, Pierluigi Maponi, Federico Mearelli, Edin Trebovic 
+%
+% Date: Dec 2024
+%
 
 close all
 clear all
