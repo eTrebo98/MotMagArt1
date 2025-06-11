@@ -19,6 +19,8 @@ function [imMag, ifail] = CompMagMatGen(im1,im2,alpha)
     %
     % Date: Dec 2024
     %
+    % Version: 1.0
+    %
 
     %setting ifail = 0, no errors occurred
     ifail = 0;
