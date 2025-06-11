@@ -17,6 +17,8 @@ function [imMag, ifail] = CompMagMatrix(im1,im2,alpha)
     %
     % Date: Dec 2024
     %
+    % Version: 1.0
+    %
     
     %calculate the sizes of the two frames
     ifail = 0;
