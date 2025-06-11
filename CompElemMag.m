@@ -11,6 +11,8 @@ function [elemMag, elemConj] = CompElemMag(fft1,fft2,alpha)
     %
     % Date: Dec 2024
     %
+    % Version: 1.0
+    %
 
     
     %computing the normalized ratio between the current fft elements of the
