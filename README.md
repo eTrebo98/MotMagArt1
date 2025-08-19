@@ -37,7 +37,7 @@ and a comparison video displaying both input and magnified videos side-by-side.<
 - **Syntax.** *[elemMag, elemConj] = CompElemMag(fft1,fft2,alpha)*
 - **Purpose.** Computes the current element of the DFT of the magnified frame and its conjugate symmetric.
 - **Description.** *[elemMag, elemConj] = CompElemMag(fft1,fft2,alpha)*, takes the current two elements of the DFTs of $im1 = J_1$ and $im2 = J_2$ and computes the formula:
-                  <p align="center"> $$\widehat{\tilde{J_2}}(k,l) \approx \hat{J}_2(k,l) (E(k,l))^{\alpha} \quad \text{and} \quad \widehat{\tilde{J_2}}(N-k,M-l) = conj(\widehat{\tilde{J_2}}(k,l))$$</p>
+                  <p align="center"> $$\widehat{\tilde{J_2}}(k,l) = \hat{J}_2(k,l) (E(k,l))^{\alpha} \quad \text{and} \quad \widehat{\tilde{J_2}}(N-k,M-l) = conj(\widehat{\tilde{J_2}}(k,l))$$</p>
   where $E(k,l)$ is given by
   <p align="center">$$E(k,l) = \dfrac{\hat{J}_2(k,l)/ |\hat{J}_2(k,l)|}{\hat{J}_1(k,l)/ |\hat{J}_1(k,l)|} \approx e^{\iota (k \delta_2 + l \delta_1)}$$</p>
   for $k = 0, \cdots, \frac{N-1}{2}$ and $l = 0, \cdots,  \frac{M-1}{2}$ if $N$ and $M$ are odd. For $k = 0, \cdots, \frac{N}{2}$ and $l = 0, \cdots,  \frac{M}{2}$ if $N$ and $M$ are even numbers. Where $N$ is the height and $M$ is width of the image.
